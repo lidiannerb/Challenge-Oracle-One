@@ -5,20 +5,44 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>DecodificadorOracle</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
   <section class="head">
     <h1>One - Codificador de texto</h1>
   </section>
 
-  <main>
-    <section class="encrypt-box" id="encryptBox">
-      <label for="">Insira seu texto</label>
-      <textarea name="text" id="text" cols="30" rows="10"></textarea>
-      
+  <main class="container" id="container">
+    <section class="text-box" id="textBox">
+      <label class="label">Insira seu texto</label>
+      <textarea name="portuguese-text" class="portuguese-text" id="portugueseText" cols="40" rows="15"></textarea>
+      <section class="buttons">
+        <button class="code-button" id="codeButton">Codificar</button>
+        <button class="decode-button" id="decodeButton">Descodificar</button>
+      </section>
     </section>
 
+    <section class="text-box" id="textBox">
+      <label class="label">Texto Codificado</label>
+      <textarea name="code-text" class="code-text" id="codeText" cols="40" rows="15"></textarea>
+      <section class="buttons">
+        <button class="copy-text" id="copyText">Copiar</button>
+      </section>
+    </section>
   </main>
-  
+
+  <footer class="container-footer">
+    <p class="footer-text">
+      Desenvolvido por
+      <a class="footer-link" href="https://www.linkedin.com/in/lromao/" target="_blank" 
+      rel="noopener noreferrer"
+      >
+        Lidianne Romão Barbosa
+      </a>
+    </p> 
+  </footer>
 </body>
 </html>
