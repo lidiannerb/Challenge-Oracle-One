@@ -3,6 +3,7 @@ import encrypt from "./encrypt.js";
 const btnCode = document.getElementById("codeButton");
 const btnDecode = document.getElementById("decodeButton");
 
+
 function encryptingText (e) {
 
   e.preventDefault() 
@@ -24,4 +25,12 @@ function decryptingText (e) {
 }
 btnDecode.addEventListener("click", decryptingText);
 
+
+const btnCopy = document.getElementById("copyText");
+
+btnCopy.addEventListener("click", function(e) {
+  let textArea = document.getElementById("textCode");
+  textArea.select();
+  document.execCommand('copy');
+});
 
