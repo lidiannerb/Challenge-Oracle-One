@@ -1,18 +1,25 @@
 const encrypt = {
 
-    encode: function(text) {
+  encode: function(text) {
 
-      let showMsgCode = "";
+    let showMsgEncode = "";
 
-    for(let i =0; i < text.length; i++){
+    for(let i = 0; i < text.length; i++){
       let newText = text[i];
       newText = text[i].replace("e", "enter").replace("i", "imes").replace("a", "ai").replace("o", "ober").replace("u", "ufat");
       
-      showMsgCode += String(newText);
+      showMsgEncode += String(newText);
       
-    } return showMsgCode;    
-  } 
-} 
+    } return showMsgEncode;    
+  },
+  
+  decode: function(text) {
+      let newText = "";
+      newText = text.replaceAll("enter", "e").replaceAll("imes", "i").replaceAll("ai", "a").replaceAll("ober", "o").replaceAll("ufat", "u");
+      
+     return newText;
+  }
+};
 
 export default encrypt;
 

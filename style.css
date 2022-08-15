@@ -19,7 +19,7 @@ h1 {
   gap: 7%;
 }
 
-.portuguese-text, .code-text {
+.text, .text-code {
   background-color: #CAF4FF;
   border-radius: 10px;
   color: #212121;
