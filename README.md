@@ -17,7 +17,7 @@
 
 ## 2. Acesso
 
-O deploy do projeto foi realizado pelo Git Pages. [Clique aqui]() para acessá-lo.
+O deploy do projeto foi realizado pelo Git Pages. [Clique aqui](https://lidiannerb.github.io/Challenge-Oracle-One/) para acessá-lo.
 
 ### Como usar
 Você precisará:
