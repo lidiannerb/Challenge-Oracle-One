@@ -1,0 +1,25 @@
+{
+  "name": "decodificador-oracleone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "serve src/",
+    "deploy": "gh-pages -d src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lidiannerb/Challenge-Oracle-One.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lidiannerb/Challenge-Oracle-One/issues"
+  },
+  "homepage": "https://github.com/lidiannerb/Challenge-Oracle-One#readme",
+  "devDependencies": {
+    "gh-pages": "^4.0.0",
+    "serve": "^13.0.2"
+  }
+}
