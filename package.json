@@ -20,6 +20,6 @@
   "homepage": "https://github.com/lidiannerb/Challenge-Oracle-One#readme",
   "devDependencies": {
     "gh-pages": "^4.0.0",
-    "serve": "^13.0.2"
+    "serve": "^14.0.1"
   }
 }
